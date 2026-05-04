@@ -1,9 +1,17 @@
+import { motion } from "framer-motion";
+
 function Skills() {
   return (
-    <section>
+    <motion.section
+      id="skills"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
       <h2>Skills</h2>
       <p>React, Python, FastAPI, SQL, MongoDB, Git</p>
-    </section>
+    </motion.section>
   );
 }
 
