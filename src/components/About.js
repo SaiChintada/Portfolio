@@ -1,17 +1,11 @@
-import { motion } from "framer-motion";
-
 function About() {
   return (
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Computer Science student with experience in full-stack development using
-        React, FastAPI, and databases like PostgreSQL and MongoDB.
-      </p>
+    <section id="about" className="section">
+      <h2>About</h2>
 
       <p>
-        Worked on real-world projects including live tracking systems and backend
-        APIs, with focus on performance and user experience.
+        I am a Computer Science student with experience in building full-stack applications.
+        I enjoy solving real-world problems and creating user-friendly interfaces.
       </p>
     </section>
   );
